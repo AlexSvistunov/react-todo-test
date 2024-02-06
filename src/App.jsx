@@ -10,7 +10,7 @@ function App() {
   return (
     <>
 
-    <Form></Form>
+    <Form ></Form>
     
       {/* <form
         onSubmit={(e) => {
