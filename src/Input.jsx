@@ -1,9 +1,8 @@
+const Input = (props) => {
+  return <input value={props.value} onChange={(e) => 
+  props.inputHandler(e)}
 
+  ></input>;
+};
 
-const Input = () => {
-  return (
-    <input></input>
-  )
-}
-
-export default Input
+export default Input;
